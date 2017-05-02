@@ -45,6 +45,3 @@ Then search <b>VM options for importer</b> in <i>Build Toold > Maven > Importing
 ```py
 -Xms1g -Xmx4g
 ```
-
-
-![alt text](http://imgur.com/a/NMnXk)
