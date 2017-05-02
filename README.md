@@ -43,5 +43,6 @@ Then search <b>VM options for importer</b> in <i>Build Toold > Maven > Importing
 
 
 ```py
--Xms1g -Xmx4g
+-Xmx4g -Xms1g
 ```
+![](http://omershafiq.com/nuxeo-tutorial/vm-options-for-importer.png)
