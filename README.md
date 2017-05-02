@@ -42,7 +42,21 @@ Open IntelliJ, a welcome menu will be shown. On the right bottom of menu, click 
 Then search <b>VM options for importer</b> in <i>Build Toold > Maven > Importing</i> and set it to:
 
 
+
 ```py
 -Xmx4g -Xms1g
 ```
+
 ![](http://omershafiq.com/nuxeo-tutorial/vm-options-for-importer.png)
+
+Now import Nuxeo source code as Maven project. In the default welcome menu, choose <b>Import Project</b>, then find the Nuxeo root folder and select the POM file in <i><b>$NX_HOME/pom.xml</b></i>. Afterwards, set up the Maven import options as the following screenshot:
+
+![](http://omershafiq.com/nuxeo-tutorial/import-project-from-maven.png)
+
+Later, you will need to:
+
+1. Choose Maven profiles: <b>default</b>
+2. Choose Project SDK: <b> use JDK 8 </b>
+3. Edit name to create a new IntelliJ project: <b> default (or anything you like) </b>
+
+![](http://omershafiq.com/nuxeo-tutorial/maven_profile.png)
