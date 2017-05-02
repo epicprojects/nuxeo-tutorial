@@ -60,3 +60,4 @@ Later, you will need to:
 3. Edit name to create a new IntelliJ project: <b> default (or anything you like) </b>
 
 
+![](http://omershafiq.com/nuxeo-tutorial/maven_profile.png)
