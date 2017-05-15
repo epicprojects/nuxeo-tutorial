@@ -102,6 +102,11 @@ clean -DskipTests=true install -Paddons,distrib
 
 ![](http://omershafiq.com/nuxeo-tutorial/run_config.png)
 
+
+
+*Most common mistake is either not having right <b>Maven (I am using 3.3.9)</b> version installed or not having all required <b>NPM components (npm, yo, grunt-cli, gulp, bower)</b>
+
+
 and run the project after making configrations and if everything goes well you should see this:
 
 
