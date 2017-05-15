@@ -104,7 +104,7 @@ clean -DskipTests=true install -Paddons,distrib
 
 
 
-*Most common mistake is either not having right <b>Maven (I am using 3.3.9)</b> version installed or not having all required <b>NPM components (npm, yo, grunt, grunt-cli, gulp, bower)</b>
+*Most common mistake is either not having right <b>Maven (I am using 3.3.9)</b> version installed or not having all required <b>NPM components (npm, yo, grunt, grunt-cli, gulp, bower) or missing any other prerequisites</b>
 
 
 and run the project after making configrations and if everything goes well you should see this:
