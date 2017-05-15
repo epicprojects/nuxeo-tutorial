@@ -1,4 +1,4 @@
-# Develop With Nuxeo Tutorial
+# Develop With Nuxeo (Tutorial)
 Do you want to develop Nuxeo Platform with you favorite IDE IntelliJ? 
 
 I’d like to share with you the IntelliJ configuration for Nuxeo. After reading this, you’ll understand how to:
