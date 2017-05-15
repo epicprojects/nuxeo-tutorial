@@ -20,7 +20,7 @@ Before getting started, you need to ensure your computer has installed the follo
 3. Apache Maven 3.1.1+ (3.2+ recommended)
 4. Apache Ant 1.7.1+
 5. Git
-6. NodeJS 0.10.32 and (npm, yo, grunt-cli, gulp, bower) *don't forget to install these are very important*
+6. NodeJS 0.10.32 and (npm, yo, grunt, grunt-cli, gulp, bower) *don't forget to install these are very important*
 7. Python 2.7
 
 
@@ -104,7 +104,7 @@ clean -DskipTests=true install -Paddons,distrib
 
 
 
-*Most common mistake is either not having right <b>Maven (I am using 3.3.9)</b> version installed or not having all required <b>NPM components (npm, yo, grunt-cli, gulp, bower)</b>
+*Most common mistake is either not having right <b>Maven (I am using 3.3.9)</b> version installed or not having all required <b>NPM components (npm, yo, grunt, grunt-cli, gulp, bower)</b>
 
 
 and run the project after making configrations and if everything goes well you should see this:
