@@ -107,6 +107,55 @@ clean -DskipTests=true install -Paddons,distrib
 *Most common mistake is either not having right <b>Maven (I am using 3.3.9)</b> version installed or not having all required <b>NPM components (npm, yo, grunt, grunt-cli, gulp, bower) or missing any other prerequisites</b>
 
 
-and run the project after making configrations and if everything goes well you should see this:
+and run the project after making configrations and if everything goes well you should see the <b>Nuxeo Server GUI</b>:
+
+![](http://omershafiq.com/nuxeo-tutorial/server-gui.png)
+
+if you go to browser and open following link you should see that nuxeo server is up and running.
+
+```py
+http://localhost:8080/nuxeo
+```
+
+![](http://omershafiq.com/nuxeo-tutorial/install-web-ui.png)
+
+
+<h2>5. Installing Web UI bundle to Nuxeo Server</h2>
+
+<b>!!! IMPORTANT !!!</b>
+Before installing component you need to stop the Nuxeo Server!
+
+Nuxeo Web UI component can be downloaded from following link https://connect.nuxeo.com/nuxeo/site/marketplace/package/nuxeo-web-ui
+Now using following command install <b>Nuxeo Web UI Comoponent</b>
+
+```py
+/YOUR_PATH_TO_NUXEO/nuxeo/nuxeo-distribution/nuxeo-server-tomcat/target/nuxeo-server-tomcat-9.2-SNAPSHOT/bin/nuxeoctl mp-install <download-path>/nuxeo-web-ui-0.10.0.zip
+```
+
+If while installing the component it askes you to <i>"Do you want to relax the constraint (yes/no)?"</i> Answer with <b>Yes</b>
+
+Now start the server using following command or run your 'run.bat/run.sh' script.
+
+For Mac OS
+```py
+/YOUR_PATH_TO_NUXEO/nuxeo/nuxeo-distribution/nuxeo-server-tomcat/target/nuxeo-server-tomcat-9.2-SNAPSHOT/bin/Start\ Nuxeo.command
+```
+
+For Windows
+```py
+"C:\YOUR_PATH_TO_NUXEO\nuxeo\nuxeo-distribution\nuxeo-server-tomcat\target\nuxeo-server-tomcat-9.2-SNAPSHOT\bin\Start Nuxeo.bat"
+```
+
+and if everything works fine you should see fully functional nuxeo server with a UI interface on http://localhost:8080/nuxeo.
+You can login to the dashboard using following credentials.
+
+Username: Administrator
+Password: Administrator
+
+![](http://omershafiq.com/nuxeo-tutorial/login.png)
+
+![](http://omershafiq.com/nuxeo-tutorial/nuxeo-dashboard.png)
+
+
 
 
