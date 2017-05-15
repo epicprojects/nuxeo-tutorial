@@ -149,8 +149,8 @@ For Windows
 and if everything works fine you should see fully functional nuxeo server with a UI interface on http://localhost:8080/nuxeo.
 You can login to the dashboard using following credentials.
 
-<b>Username: Administrator
-Password: Administrator</b>
+<b>Username:</b> Administrator
+<b>Password:</b> Administrator
 
 ![](http://omershafiq.com/nuxeo-tutorial/login.png)
 
