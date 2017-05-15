@@ -97,7 +97,7 @@ After that you have to create a run configuration which should look like this:
 In before launch section you need to add <b>"Make"</b> (Which will compile all the sources) and also create a <b>"Run Maven Goal"</b> with following parameters:
 
 ```py
-clean install -Paddons,distrib
+clean -DskipTests=true install -Paddons,distrib
 ```
 
 ![](http://omershafiq.com/nuxeo-tutorial/run_config.png)
